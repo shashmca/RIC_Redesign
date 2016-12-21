@@ -1,0 +1,6 @@
+{
+    "templateDir": [],
+    "sassDir": ["sass/**/*.scss"],
+    "styleDir": ["./css/"],
+    "jsDir": []
+}
