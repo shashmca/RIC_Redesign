@@ -1,0 +1,4 @@
+{
+	"sassDir": "sass/**/*.scss",
+	"styleDir": "./css/"
+}
