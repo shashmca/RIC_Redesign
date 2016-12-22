@@ -8,3 +8,10 @@ npm install --gulp-uglify
 npm install --gulp-server-livereload
 npm install --gulp-livereload
 npm install --save-dev gulp-handlebars gulp-wrap gulp-declare gulp-concat
+npm install --save-dev gulp del
+npm install --save-dev gulp-notify
+npm install --save-dev gulp-concat
+npm install --save-dev gulp-rename
+npm install --save-dev gulp-uglify
+npm install --save-dev gulp-cache
+npm install --save-dev gulp-imagemin

@@ -1,6 +1,16 @@
 {
-    "templateDir": [],
-    "sassDir": ["sass/**/*.scss"],
-    "styleDir": ["./css/"],
-    "jsDir": []
+    "input": {
+        "templateDir": ["source/js/templates/*.hbs"],
+        "sassDir": ["sass/**/*.scss"],
+        "styleDir": ["./css/"],
+        "jsDir": ["source/js/vendor/*.js", "source/js/*.js", "source/modules/**/js/*.js"],
+        "fontsDir":"source/assets/fonts",
+    	"imagesDir": "source/assets/images"
+    },
+    "output": {
+    	"jsDir":"dist/js",
+    	"styleDir":"dist/styles",
+    	"fontsDir":"dist/font",
+    	"imagesDir": "dist/images"
+    }
 }
