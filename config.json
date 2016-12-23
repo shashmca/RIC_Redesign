@@ -1,11 +1,11 @@
 {
     "input": {
         "templateDir": ["source/js/templates/*.hbs"],
-        "sassDir": ["sass/**/*.scss"],
+        "sassDir": ["source/**/*.scss"],
         "styleDir": ["./css/"],
         "jsDir": ["source/js/vendor/*.js", "source/js/*.js", "source/modules/**/js/*.js"],
         "fontsDir":"source/assets/fonts",
-    	"imagesDir": "source/assets/images"
+    	"imagesDir": ["source/assets/images/*.jpg","source/assets/images/*.png"]
     },
     "output": {
     	"jsDir":"dist/js",

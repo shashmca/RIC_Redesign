@@ -18,6 +18,7 @@ var gulp = require('gulp'),
 gulp.task('styles', function() {
     gulp.src(config.input.sassDir)
         .pipe(sass().on('error', sass.logError))
+        .pipe(concat('style.css'))
         .pipe(gulp.dest(config.output.styleDir));
 });
 
